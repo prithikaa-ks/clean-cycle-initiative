@@ -2,23 +2,55 @@ import Navbar from '../components/Navbar';
 
 function About() {
   return (
-    <div>
-      <Navbar />
-        <div className='page-container'>
-        <h1>About Us</h1> 
-        <p>
-          Clean Cycle Initiative is focused on providing nescessary information about women's reproductive health. 
+    <>
+      <Navbar/>
+      {/* Title Section*/ }
+      <div style={{
+        backgroundColor: '#ee6a92',
+        minHeight: '50vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        textAlign: 'center',
+        padding: '40px',
+      }}>
+        <h1 style={{ fontFamily: 'Trebuchet MS', fontWeight: 200, color: '#f7eedaff', fontSize: '3rem' }}>
+          Our Team
+        </h1>
+        <p style={{ color: '#f7eedaff', fontSize: '1.2rem', maxWidth: '500px' }}>
         </p>
-        <h1>Our Mission</h1>
-        <p>
-          We strive to empower young women and girls in international countries through menstrual education and support.
+
+     
+      </div>
+
+      {/* About/Mission Section */}
+      <div style={{
+        backgroundColor: '#f7eedaff',
+        minHeight: '60vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        textAlign: 'center',
+        padding: '60px 40px',
+      }}>
+        <h2 style={{ fontFamily: 'Trebuchet MS', fontWeight: 200, color: '#ee6a92', fontSize: '2rem' }}>
+          Add team photos here. 
+        </h2>
+      </div>
+
+      {/* Footer */}
+      <div style={{
+        backgroundColor: '#e0858e',
+        padding: '40px',
+        textAlign: 'center',
+      }}>
+        <p style={{ color: '#f7eedaff', margin: 0 }}>
+          Footer content.
         </p>
-        <h2>What We Do</h2>
-        <p>
-          By working with shelters in India and Nepal, we address menstrual health where access is limited and stigma exists.
-        </p>
-        </div>
-    </div>
+      </div>
+    </>
   );
 }
 

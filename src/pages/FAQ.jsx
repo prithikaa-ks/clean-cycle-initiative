@@ -2,12 +2,13 @@ import Navbar from '../components/Navbar';
 
 function FAQ() {
   return (
-    <div>
+    <>
       <Navbar />
-      <div className="page-container">
+      <div className="heading-container">
         <h1>Frequently Asked Questions</h1>
+      </div>
 
-        <h2>FAQ #1</h2>
+      <h2>FAQ #1</h2>
         <p>
             true/false and elaborate
         </p>
@@ -16,8 +17,7 @@ function FAQ() {
         <p>
             true/false and elaborate
         </p>
-      </div>
-    </div>
+    </>
   );
 }
 
