@@ -57,16 +57,57 @@ function Home() {
         textAlign: 'center',
         padding: '60px 40px',
       }}>
-        <h2 style={{ fontFamily: 'Trebuchet MS', fontWeight: 200, color: '#ee6a92', fontSize: '2rem' }}>
+        <h2>
           Our Mission
         </h2>
-        <p style={{ color: '#1e293b', fontSize: '1rem', maxWidth: '600px', lineHeight: '1.8' }}>
+        <p style={{ color: '#1e293b', fontSize: '1rem', maxWidth: '600px', lineHeight: '1.8', marginBottom: '100px'}}>
         At our organization, we are committed to making menstrual health education accessible,
          inclusive, and easy to understand for underprivileged communities around the world. 
          We believe that every individual deserves access to accurate information, supportive 
          resources, and the confidence to take control of their health without stigma or barriers.
 
         </p>
+
+
+        <div style= {{display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gridGap: "20px", width: "100%"}}>
+          <div className="single-column">
+            <h3> Develop a Functional Educational Website            </h3>
+            <p style={{color: '#1e293b', fontSize: '1rem', maxWidth: '600px', lineHeight: '1.8', marginBottom: '100px', paddingTop: '30px'}}>
+              Our top priority is completing a fully functioning website that serves as a central hub 
+              for menstrual health education. This platform will provide clear, approachable, and 
+              interactive resources designed to be understood by a wide range of age groups and backgrounds.
+            </p>
+          </div>
+          <div className="single-column">
+            <h3> Strengthen International Partnerships            </h3>
+            <p style={{color: '#1e293b', fontSize: '1rem', maxWidth: '600px', lineHeight: '1.8', marginBottom: '100px', paddingTop: '30px'}}>
+            We have already established communication with multiple orphanages 
+            in India and Nepal. Our goal is to continue expanding these 
+            relationships and work toward implementing structured menstrual
+            health education programs for girls in these communities.
+            </p>
+          </div>
+          <div className="single-column">
+            <h3>Build Local Community Connections            </h3>
+            <p style={{color: '#1e293b', fontSize: '1rem', maxWidth: '600px', lineHeight: '1.8', marginBottom: '100px', paddingTop: '30px'}}>
+              We plan to begin outreach to local shelters and elementary schools 
+              in the upcoming semester. This will allow us to gain hands-on 
+              experience delivering menstrual health presentations in an engaging,
+              kid-friendly, and culturally sensitive way, supported by our 
+              interactive website materials.
+            </p>
+          </div>
+          <div className="single-column">
+            <h3>Expand Membership and Fundraising Efforts            </h3>
+            <p style={{color: '#1e293b', fontSize: '1rem', maxWidth: '600px', lineHeight: '1.8', marginBottom: '100px', paddingTop: '30px'}}>
+            We aim to grow our organization by increasing active membership 
+            and continuing fundraising initiatives. These efforts will directly 
+            support our educational programs and resource development.
+            </p>
+          </div>
+       </div>
+
+
       </div>
 
       {/* Footer */}
