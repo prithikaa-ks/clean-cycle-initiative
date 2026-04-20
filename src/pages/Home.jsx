@@ -106,6 +106,35 @@ function Home() {
             </p>
           </div>
        </div>
+      <h2>
+          Long Term Goals
+        </h2>
+        <p style={{ color: '#1e293b', fontSize: '1rem', maxWidth: '600px', lineHeight: '1.8', marginBottom: '100px'}}>
+        Looking ahead, we hope to expand our impact through sustainable education initiatives, global outreach, and innovative learning tools.
+        </p>
+
+        <div style= {{display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridGap: "20px", width: "100%"}}>
+          <div className="single-column">
+            <h3> Support Research and Resource Development            </h3>
+            <p style={{color: '#1e293b', fontSize: '1rem', maxWidth: '600px', lineHeight: '1.8', marginBottom: '100px', paddingTop: '30px'}}>
+              We aim to raise funds that can support menstrual health research projects and help provide essential resources, including computers and digital access, for under-resourced shelters internationally
+            </p>
+          </div>
+          <div className="single-column">
+            <h3> Provide 1-on-1 Educational Support            </h3>
+            <p style={{color: '#1e293b', fontSize: '1rem', maxWidth: '600px', lineHeight: '1.8', marginBottom: '100px', paddingTop: '30px'}}>
+              We hope to develop personalized menstrual health mentorship for orphans, ensuring they receive tailored guidance in a supportive setting. Though there are some obstacles to consider, such as language barriers and time differences, we are determined to find a solution to establish 1-on-1 interaction with underserved individuals.
+            </p>
+          </div>
+          <div className="single-column">
+            <h3> Create Interactive Educational Media            </h3>
+            <p style={{color: '#1e293b', fontSize: '1rem', maxWidth: '600px', lineHeight: '1.8', marginBottom: '100px', paddingTop: '30px'}}>
+              We plan to design short videos, animations, and interactive quizzes that simplify menstrual health education. These tools will make learning more engaging, especially for younger audiences, and help reinforce key concepts in an accessible way.
+            </p>
+          </div>
+
+        </div>
+        
 
 
       </div>
