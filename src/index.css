@@ -187,3 +187,135 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.guidance-page {
+  --tangerine: #F08C21;
+  --butter: #F2D88F;
+  --blush: #E36888;
+  --sea: #6698CC;
+  --matcha: #B4B534;
+  --beige: #fff7ec;
+
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 56px 24px;
+  color: #2b2430;
+  text-align: left;
+  
+}
+
+.guidance-hero {
+  background: linear-gradient(135deg, var(--tangerine), var(--blush));
+  color: white;
+  padding: 48px;
+  border-radius: 28px;
+  margin-bottom: 48px;
+}
+
+.guidance-hero h1 {
+  color: white;
+  font-size: 42px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.guidance-hero p {
+  color: white;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 760px;
+}
+
+.guidance-section {
+  background-color: white;
+  border: 2px solid var(--butter);
+  border-radius: 24px;
+  padding: 32px;
+  margin-top: 32px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+}
+
+.guidance-section h2 {
+  color: var(--blush);
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.guidance-section p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #2b2430;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.product-card {
+  border-radius: 20px;
+  padding: 22px;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.product-card:nth-child(1) {
+  background-color: var(--butter);
+}
+
+.product-card:nth-child(2) {
+  background-color: var(--blush);
+}
+
+.product-card:nth-child(3) {
+  background-color: var(--sea);
+}
+
+.product-card:nth-child(4) {
+  background-color: var(--matcha);
+}
+
+.product-card:nth-child(5) {
+  background-color: var(--tangerine);
+}
+
+.product-card h3 {
+  color: #1f1b24;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.product-card p {
+  color: #1f1b24;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.product-card:nth-child(2) h3,
+.product-card:nth-child(2) p,
+.product-card:nth-child(3) h3,
+.product-card:nth-child(3) p,
+.product-card:nth-child(5) h3,
+.product-card:nth-child(5) p {
+  color: #fffaf2;
+}
+
+
+.guidance-list {
+  margin-top: 20px;
+  padding-left: 24px;
+}
+
+.guidance-list li {
+  margin-bottom: 12px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.guidance-wrapper {
+  background-color: #fff7ec;
+  min-height: 100vh;
+}
