@@ -5,7 +5,9 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import FAQ from './pages/FAQ';
-import SimpleGuidance from './pages/simple-guidance';
+import SimpleGuidance from './pages/Getting Started Content/simple-guidance';
+import GetStarted from './pages/Getting Started Content/get-started';
+import Normal from './pages/Getting Started Content/normal';
 
 function App() {
   
@@ -17,7 +19,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/faq" element={<FAQ />} />
-        <Route path="/simple-guidance" element={<SimpleGuidance />} />
+        <Route path="/get-started" element={<GetStarted />} />
+        <Route path="/simple-guidance" element={<SimpleGuidance/>} />
+        <Route path="/normal" element={<Normal/>}/>
       </Routes>
     </>
   )

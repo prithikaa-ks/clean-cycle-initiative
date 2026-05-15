@@ -1,10 +1,10 @@
-import Navbar from '../components/Navbar';
+import Navbar from '../../components/Navbar';
 
 function SimpleGuidance() {
   return (
     <>
       <Navbar />
-    <div classname="guidance-wrapper">
+    <div className="guidance-wrapper">
       <main className="guidance-page">
         <section className="guidance-hero">
           <h1>Simple Guidance for Monthly Care</h1>

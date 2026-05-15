@@ -68,6 +68,15 @@ body {
   --bg-color: #f8fafc;
   --text-color: #1e293b;
   --nav-bg: #e0858e;
+
+
+
+  --tangerine: #F08C21;
+  --butter: #F2D88F;
+  --blush: #E36888;
+  --sea: #6698CC;
+  --matcha: #B4B534;
+  --beige: #fff7ec;
 }
 
 
@@ -161,7 +170,7 @@ p {
 }
 
 
-h3{
+h3, h4{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #333;
   font-size: 24px;
@@ -188,13 +197,12 @@ code {
   background: var(--code-bg);
 }
 
+.guidance-wrapper {
+  width: 100%;
+  background-color: #fff7ec;
+}
+
 .guidance-page {
-  --tangerine: #F08C21;
-  --butter: #F2D88F;
-  --blush: #E36888;
-  --sea: #6698CC;
-  --matcha: #B4B534;
-  --beige: #fff7ec;
 
   max-width: 1000px;
   margin: 0 auto;
@@ -210,6 +218,7 @@ code {
   padding: 48px;
   border-radius: 28px;
   margin-bottom: 48px;
+  cursor: pointer;
 }
 
 .guidance-hero h1 {
@@ -315,7 +324,56 @@ code {
   line-height: 1.5;
 }
 
-.guidance-wrapper {
-  background-color: #fff7ec;
-  min-height: 100vh;
+
+.flashcard-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin: 32px auto;
+  max-width: 1100px;
+  justify-content: center;
+
 }
+
+.normal-wrapper {
+  background-color: #fff7ec;
+  justify-content: center;
+}
+
+.normal-page {
+  width: 80%;
+  margin: 0 auto;
+  padding: 56px 24px;
+  color: #2b2430;
+  text-align: left;
+  justify-content: center;
+}
+
+
+.custom-flashcard h4{
+  font-size: 30px !important;
+  font-weight: 600 !important;
+  font-family: 'Trebuchet MS', sans-serif !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+  color: white
+}
+
+.custom-flashcard h3 {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  font-family: 'Trebuchet MS', sans-serif !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+  color: inherit !important;
+}
+  
+
+.custom-flashcard p {
+  color: #1f1b24;
+  font-size: 16px;
+  line-height: 1.5;
+}
+  
+
+

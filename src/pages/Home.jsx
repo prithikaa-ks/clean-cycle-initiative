@@ -1,6 +1,8 @@
 // import Navbar from '../components/Navbar';
 
 import Navbar from "../components/Navbar";
+import { useNavigate } from 'react-router-dom';
+
 
 
 const buttonStyle = {
@@ -19,6 +21,7 @@ const buttonStyle = {
 
 
 function Home() {
+  const navigate = useNavigate()
   return (
     <>
       <Navbar/>
@@ -41,7 +44,7 @@ function Home() {
         </p>
 
         <button
-          style={buttonStyle}> 
+          style={buttonStyle} onClick={() => navigate("/get-started")}> 
           Start Here
         </button>
       </div>
