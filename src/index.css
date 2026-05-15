@@ -374,6 +374,12 @@ code {
   font-size: 16px;
   line-height: 1.5;
 }
+
+.custom-flashcard {
+  border-radius: 20px !important;
+  border: 2px solid rgba(0, 0, 0, 0.08) !important;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08) !important;
+}
   
 
 
