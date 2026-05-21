@@ -28,6 +28,14 @@ function GetStarted() {
           </p>
         </section>
 
+        <section className="guidance-hero" onClick={() => navigate('/anatomy')}>
+            <h1>Anatomy</h1>
+            <p>
+              Learn about the main parts of the female reproductive system and how they
+              connect to the menstrual cycle.
+            </p>
+          </section>
+
 
 
         

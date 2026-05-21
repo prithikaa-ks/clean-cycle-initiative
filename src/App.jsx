@@ -8,6 +8,7 @@ import FAQ from './pages/FAQ';
 import SimpleGuidance from './pages/Getting Started Content/simple-guidance';
 import GetStarted from './pages/Getting Started Content/get-started';
 import Normal from './pages/Getting Started Content/normal';
+import Anatomy from './pages/Getting Started Content/Anatomy';
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
         <Route path="/get-started" element={<GetStarted />} />
         <Route path="/simple-guidance" element={<SimpleGuidance/>} />
         <Route path="/normal" element={<Normal/>}/>
+        <Route path="/anatomy" element={<Anatomy />} />
       </Routes>
     </>
   )

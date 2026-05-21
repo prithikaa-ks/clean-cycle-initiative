@@ -381,5 +381,77 @@ code {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08) !important;
 }
   
+.anatomy-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 28px;
+  align-items: start;
+  margin-top: 28px;
+}
 
+.anatomy-button-grid {
+  display: grid;
+  gap: 12px;
+}
 
+.anatomy-part-button {
+  background-color: var(--butter);
+  color: #1f1b24;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  border-radius: 18px;
+  padding: 16px 18px;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.06);
+}
+
+.anatomy-part-button:hover {
+  background-color: var(--tangerine);
+  color: #fffaf2;
+}
+
+.anatomy-part-button.selected {
+  background-color: var(--blush);
+  color: #fffaf2;
+}
+
+.anatomy-info-card {
+  background-color: var(--sea);
+  color: #fffaf2;
+  border-radius: 24px;
+  padding: 32px;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.anatomy-info-card h3 {
+  color: #fffaf2;
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+
+.anatomy-info-card p {
+  color: #fffaf2;
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+  .anatomy-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.anatomy-image {
+  display: block;
+  max-width: 520px;
+  width: 100%;
+  margin: 28px auto;
+  border-radius: 24px;
+  border: 3px solid var(--butter);
+  background-color: white;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
