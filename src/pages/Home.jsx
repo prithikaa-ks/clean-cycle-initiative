@@ -46,7 +46,10 @@ function Home() {
           <section className="guidance-section">
             <h2>Fundraising Goal</h2>
             <p style={{ marginBottom: '20px' }}>
-              Help us reach our goal to bring menstrual health education to communities in need.
+              One of our main goals is fundraising to purchase  
+              technology for orphanages and women's shelters to provide 
+              broader access to virtual menstrual health information and 
+              tutoring initiatives.
             </p>
             <div className="tracker-bar-bg">
               <div className="tracker-bar-fill" style={{ width: `${percent}%` }} />
