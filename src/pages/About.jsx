@@ -37,6 +37,34 @@ const longTermGoals = [
 ];
 
 
+const teamPhotos = [
+  {
+    title: 'Namrata Boggaram',
+    body: 'President',
+    img: 'src/assets/Namrata.jpeg'
+  },
+  
+  {
+    title: 'Manaswi Panthi',
+    body: 'President',
+    img: 'src/assets/Manaswi.jpg'
+  },
+
+  {
+    title: 'Hannah Gilchrist',
+    body: 'Research Lead',
+    img: 'src/assets/hannah.jpg'
+  }, 
+  {
+    title: 'Prithikaa Sadagopan',
+    body: 'Website Manager',
+    img: 'src/assets/prithikaa.jpeg'
+  }
+
+
+]
+
+
 function About() {
   return (
     <>
@@ -101,6 +129,27 @@ function About() {
             <p>Meet the people behind the Clean Cycle Initiative.</p>
 
             <div className='team-list'>
+            {teamPhotos.map((member, i) => (
+                <div
+                  key={i}
+                  className="team-card"
+                  style={{ backgroundColor: cardColors[(i + 2) % cardColors.length] }}
+                >
+                  <h3 style={{ color: '#fffaf2' }}>{member.title}</h3>
+                  <p style={{ color: '#fffaf2' }}>{member.body}</p>
+                  <img
+                        src={member.img}
+                        style={{
+                          width: '200px',
+                          height: '200px',
+                          objectFit: 'cover',
+                          objectPosition: 'center',
+                          borderRadius: '12px',
+                          marginTop: '20px'
+                        }}
+                      />
+                </div>
+              ))}
 
             </div>
           </section>

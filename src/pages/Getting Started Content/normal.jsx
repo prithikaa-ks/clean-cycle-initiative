@@ -6,15 +6,15 @@ import { useState } from 'react';
 
 
 const initialCards = [
-    {front: 'Leakage can happen sometimes', back:'Normal', normal:true}, 
-    {front: 'Skin irritation can occur, especially in warmer weather', back:'Normal', normal:true},
+    {front: 'Leakage happening sometimes', back:'Normal', normal:true}, 
+    {front: 'Skin irritation, especially in warmer weather', back:'Normal', normal:true},
     {front: 'Periods last a few days each month', back:'Normal', normal:true},
-    {front: 'Mild discomfort or cramping can occur', back:'Normal', normal:true},
-    {front: 'Flow may vary from light to heavy', back:'Normal', normal:true},
-    {front: 'In the first few years of having a menstrual cycle, it is normal for your period to be irregular or varying in length', back:'Normal', normal:'true'},
+    {front: 'Mild discomfort or cramping', back:'Normal', normal:true},
+    {front: 'Flow varying from light to heavy', back:'Normal', normal:true},
+    {front: 'Periods that are irregular or varying in length for the first few years of having your cycle', back:'Normal', normal:'true'},
     {front: 'Very severe pain that interferes with daily life', back:"Not normal", normal:false},
     {front: 'Extremely heavy bleeding (such as soaking through one or more pads/tampons per hour)', back:"Not normal", normal: false},
-    {front: 'After a few years of having a menstrual cycle, it is not normal to have sudden changes in your cycle (such as suddenly stopping for 3 or more months)', 
+    {front: 'Sudden changes in your cycle (such as suddenly stopping for 3 or more months) after a few years of having a menstrual cycle ', 
         back:'Not normal', normal:false
     }
 ]
