@@ -55,13 +55,13 @@ function Home() {
               <div className="tracker-bar-fill" style={{ width: `${percent}%` }} />
             </div>
             <p className="tracker-label">${raised} raised of ${goal} goal</p>
-            <button
+            {/* <button
               className="action-btn"
               style={{ marginTop: '24px' }}
               onClick={() => navigate()} //TODO: set up donation
             >
               Donate
-            </button>
+            </button> */}
           </section>
 
         </main>
