@@ -110,11 +110,7 @@ function Anatomy() {
               learn its name and what it does.
             </p>
 
-            <img
-                src="/external-anatomy.png"
-                alt="Diagram of external female anatomy"
-                className="anatomy-image"
-            />
+            
 
             <div className="anatomy-layout">
               <div className="anatomy-button-grid">
