@@ -1,6 +1,6 @@
 import Navbar from '../../components/Navbar';
 import { useState } from 'react';
-
+//no jumpscare
 const externalParts = [
     {
         id: 'vulva',
