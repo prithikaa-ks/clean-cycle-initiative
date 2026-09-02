@@ -1,12 +1,12 @@
 import Navbar from '../components/Navbar';
-import namrata from './assets/namrata.jpeg';
-import manaswi from './assets/manaswi.JPEG';
-import hannah from './assets/hannah.JPEG';
-import shreya from './assets/shreya.JPEG';
-import adya from './assets/adya.JPEG';
-import jennet from './assets/jennet.JPG';
-import prithikaa from './assets/prithikaa.jpeg';
-import nandini from './assets/nandini.jpeg';
+import namrata from '../assets/namrata.jpeg';
+import manaswi from '../assets/manaswi.JPEG';
+import hannah from '../assets/hannah.JPEG';
+import shreya from '../assets/shreya.JPEG';
+import adya from '../assets/adya.JPEG';
+import jennet from '../assets/jennet.JPG';
+import prithikaa from '../assets/prithikaa.jpeg';
+import nandini from '../assets/nandini.jpeg';
 
 const cardColors = ['#F2D88F', '#E36888', '#6698CC', '#B4B534', '#F08C21'];
 
