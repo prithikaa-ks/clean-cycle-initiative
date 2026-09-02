@@ -41,24 +41,44 @@ const teamPhotos = [
   {
     title: 'Namrata Boggaram',
     body: 'President',
-    img: 'src/assets/Namrata.jpeg'
+    img: 'src/assets/namrata.jpeg'
   },
   
   {
     title: 'Manaswi Panthi',
     body: 'President',
-    img: 'src/assets/Manaswi.jpg'
+    img: 'src/assets/manaswi.JPEG'
   },
 
   {
     title: 'Hannah Gilchrist',
-    body: 'Research Lead',
-    img: 'src/assets/hannah.jpg'
+    body: 'Vice President',
+    img: 'src/assets/hannah.JPEG'
   }, 
+  {
+    title: 'Shreya Patel',
+    body: 'Outreach',
+    img: 'src/assets/shreya.JPEG'
+  },
+  {
+    title: 'Adya Chawda',
+    body: 'Treasurer',
+    img: 'src/assets/adya.JPEG'
+  },
+  {
+    title: 'Jennet Mamiyeva',
+    body: 'Secretary',
+    img: 'src/assets/jennet.JPG'
+  },
   {
     title: 'Prithikaa Sadagopan',
     body: 'Website Manager',
     img: 'src/assets/prithikaa.jpeg'
+  },
+  {
+    title: 'Nandini Guduru',
+    body: 'Website Manager',
+    img: 'src/assets/nandini.jpeg'
   }
 
 
