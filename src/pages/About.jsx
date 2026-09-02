@@ -1,5 +1,5 @@
 import Navbar from '../components/Navbar';
-import namrata from '../assets/namrata.jpeg';
+import namrata from '../assets/Namrata.jpeg';
 import manaswi from '../assets/manaswi.JPEG';
 import hannah from '../assets/hannah.JPEG';
 import shreya from '../assets/shreya.JPEG';
