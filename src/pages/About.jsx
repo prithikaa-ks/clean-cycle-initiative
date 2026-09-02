@@ -1,4 +1,12 @@
 import Navbar from '../components/Navbar';
+import namrata from './assets/namrata.jpeg';
+import manaswi from './assets/manaswi.JPEG';
+import hannah from './assets/hannah.JPEG';
+import shreya from './assets/shreya.JPEG';
+import adya from './assets/adya.JPEG';
+import jennet from './assets/jennet.JPG';
+import prithikaa from './assets/prithikaa.jpeg';
+import nandini from './assets/nandini.jpeg';
 
 const cardColors = ['#F2D88F', '#E36888', '#6698CC', '#B4B534', '#F08C21'];
 
@@ -38,51 +46,15 @@ const longTermGoals = [
 
 
 const teamPhotos = [
-  {
-    title: 'Namrata Boggaram',
-    body: 'President',
-    img: 'src/assets/namrata.jpeg'
-  },
-  
-  {
-    title: 'Manaswi Panthi',
-    body: 'President',
-    img: 'src/assets/manaswi.JPEG'
-  },
-
-  {
-    title: 'Hannah Gilchrist',
-    body: 'Vice President',
-    img: 'src/assets/hannah.JPEG'
-  }, 
-  {
-    title: 'Shreya Patel',
-    body: 'Outreach',
-    img: 'src/assets/shreya.JPEG'
-  },
-  {
-    title: 'Adya Chawda',
-    body: 'Treasurer',
-    img: 'src/assets/adya.JPEG'
-  },
-  {
-    title: 'Jennet Mamiyeva',
-    body: 'Secretary',
-    img: 'src/assets/jennet.JPG'
-  },
-  {
-    title: 'Prithikaa Sadagopan',
-    body: 'Website Manager',
-    img: 'src/assets/prithikaa.jpeg'
-  },
-  {
-    title: 'Nandini Guduru',
-    body: 'Website Manager',
-    img: 'src/assets/nandini.jpeg'
-  }
-
-
-]
+  { title: 'Namrata Boggaram', body: 'President', img: namrata },
+  { title: 'Manaswi Panthi', body: 'President', img: manaswi },
+  { title: 'Hannah Gilchrist', body: 'Vice President', img: hannah },
+  { title: 'Shreya Patel', body: 'Outreach', img: shreya },
+  { title: 'Adya Chawda', body: 'Treasurer', img: adya },
+  { title: 'Jennet Mamiyeva', body: 'Secretary', img: jennet },
+  { title: 'Prithikaa Sadagopan', body: 'Website Manager', img: prithikaa },
+  { title: 'Nandini Guduru', body: 'Website Manager', img: nandini },
+];
 
 
 function About() {
