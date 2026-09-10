@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
 import { useNavigate } from 'react-router-dom';
+import { useEffect, useState } from 'react'; //donation popup needed
 
 function Home() {
   const navigate = useNavigate();
@@ -7,8 +8,36 @@ function Home() {
   const raised = 245; // TODO: update periodically (can we automate this?)
   const percent = (raised/goal) * 100
 
+  //donation popup - 
+  const [showPopup, setShowPopup] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowPopup(false);
+    }, 10000);
+
+    return () => clearTimeout(timer);
+  }, []);
+  //donation popup
+
+  
+
   return (
     <>
+    {/* donation popup */} 
+    <div id="donation-popup">
+      <span>
+        Help families affected by the Nepal floods 💛{" "}
+        <a
+          href="https://pmdrf.nchl.com.np/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Donate here
+        </a>
+      </span>
+    </div>
+    {/* donation popup */}
       <Navbar />
       <div className="heading-container" style={{ minHeight: '100vh' }}>
         <h1>Clean Cycle Initiative</h1>
