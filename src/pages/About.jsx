@@ -48,12 +48,12 @@ const longTermGoals = [
 const teamPhotos = [
   { title: 'Namrata Boggaram', body: 'President', img: namrata },
   { title: 'Manaswi Panthi', body: 'President', img: manaswi },
-  { title: 'Hannah Gilchrist', body: 'Vice President', img: '/hannah.JPEG' },
+  { title: 'Hannah Gilchrist', body: 'Vice President', img: hannah },
   { title: 'Shreya Patel', body: 'Outreach', img: shreya },
-  { title: 'Adya Chawda', body: 'Treasurer', img: '/adya.JPEG' },
+  { title: 'Adya Chawda', body: 'Treasurer', img: adya },
   { title: 'Jennet Mamiyeva', body: 'Secretary', img: jennet },
   { title: 'Prithikaa Sadagopan', body: 'Website Manager', img: prithikaa },
-  { title: 'Nandini Guduru', body: 'Website Manager', img: '/nandini.jpeg' }
+  { title: 'Nandini Guduru', body: 'Website Manager', img: nandini }
 ];
 
 

@@ -329,12 +329,23 @@ code {
 
 .flashcard-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
-  margin: 32px auto;
-  max-width: 1100px;
-  justify-content: center;
+  grid-template-columns: 1fr;      /* one card per row on mobile */
+  gap: 1.25rem;
+  justify-items: center;
+}
 
+.flashcard-cell {
+  width: 100%;
+  max-width: 340px;                /* stops cards stretching too wide on a phone */
+  min-width: 0;
+}
+
+@media (min-width: 640px) {
+  .flashcard-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1024px) {
+  .flashcard-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
 .normal-wrapper {
