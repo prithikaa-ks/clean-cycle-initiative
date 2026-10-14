@@ -80,7 +80,7 @@ function About() {
               In the near future, our focus is on building a strong foundation that allows us
               to deliver meaningful and accessible education both locally and internationally.
             </p>
-            <div className="product-list" style={{ gridTemplateColumns: 'repeat(2, 1fr)' }}>
+            <div className="product-list product-list--two-col">
               {shortTermGoals.map((goal, i) => (
                 <div
                   key={i}
